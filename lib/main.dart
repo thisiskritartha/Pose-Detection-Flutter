@@ -19,7 +19,7 @@ class _MyHomePageState extends State<MyHomePage> {
   File? img;
   late ImagePicker picker;
   dynamic poseDetector;
-  late final List<Pose> poses;
+  late List<Pose> poses;
   dynamic image;
 
   @override
